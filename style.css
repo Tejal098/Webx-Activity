@@ -1,0 +1,86 @@
+:root{
+  --bg:#eef2ff;
+  --card:#fff;
+  --main:#4f46e5;
+  --text:#222;
+  --edit:#16a34a;
+  --delete:#dc2626;
+}
+
+body{
+  font-family:Arial;
+  background:linear-gradient(135deg,#dbeafe,#ede9fe);
+  padding:30px;
+  margin:0;
+  color:var(--text);
+}
+
+h1{
+  text-align:center;
+}
+
+.buttons{
+  text-align:center;
+  margin:20px 0;
+}
+
+button{
+  background:var(--main);
+  color:white;
+  border:none;
+  padding:10px 15px;
+  margin:5px;
+  border-radius:8px;
+  cursor:pointer;
+}
+
+.box{
+  background:var(--card);
+  max-width:900px;
+  margin:auto;
+  padding:20px;
+  border-radius:12px;
+  box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.hide{
+  display:none;
+}
+
+input,.editor{
+  width:100%;
+  padding:12px;
+  margin-top:10px;
+  border:1px solid #ccc;
+  border-radius:8px;
+  box-sizing:border-box;
+}
+
+.editor{
+  min-height:200px;
+  background:white;
+  text-align:left;
+}
+
+.blog{
+  background:#f8fafc;
+  margin-top:20px;
+  padding:15px;
+  border-left:5px solid var(--main);
+  border-radius:10px;
+}
+
+.blog img,
+.editor img{
+  max-width:100%;
+  border-radius:10px;
+  margin-top:10px;
+}
+
+.edit{
+  background:var(--edit);
+}
+
+.delete{
+  background:var(--delete);
+}
